@@ -3,8 +3,7 @@ name: Run Login Script
 on:
   workflow_dispatch:
   schedule:
-    - cron: "39 16 */5 * *"   # 每5天的UTC时间16:15，即北京时间的凌晨12:39  
-    - cron: "17 17 */11 * *"   # 每11天的UTC时间17:17，即北京时间的凌晨1:17  
+    - cron: "19 33 */11 * *"   # 每11天的UTC时间17:17，即北京时间的凌晨1:17  
   push:
     branches:
       - main
